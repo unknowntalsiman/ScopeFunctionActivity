@@ -16,8 +16,11 @@ class MainActivity : AppCompatActivity() {
         // You can test your helper functions by  calling them from onCreate() and
         // printing their output to the Log, which is visible in the LogCat:
         // eg. Log.d("function output", getTestDataArray().toString())
-
+        Log.d("Function Output", "Sorted Test Data Array: ${getTestDataArray()}")
+        Log.d("Function Output", "Average < Median: ${averageLessThanMedian(listOf(1.0, 3.0, 5.0, 7.0, 9.0))}")
+        Log.d("function3 output", getView(2,null, listOf(1,2,3,4,5), this).toString())
     }
+
 
 
     /* Convert all the helper functions below to Single-Expression Functions using Scope Functions */
